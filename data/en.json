@@ -1,0 +1,131 @@
+{
+    "general": {
+        "ping": [
+            "Dang, I missed it!", "Bonk haha", "Wow, so fast", "SHUT UP I'M PLAYING GEOMETRY DASH!!!", "Should've truned Do Not Disturb on...",
+            "Pong! Or is it?", "Football", "Leave a like and subscribe for more epic videos!", "What is Discord, my grandson?"
+        ]
+    },
+    "settings": {
+        "toggles": {
+            "e": "On",
+            "d": "Off"
+        },
+        "desciprtionHelp": {
+            "s": "Use",
+            "e": "to edit this option.",
+            "v": "[value]",
+            "vm": "[values, separated with space]",
+            "r": "Note, that only members with the Manage Server permission or Administators are allowed to edit these settings.",
+            "n": "Nothing"
+        }
+    },
+    "account": {
+        "accountEmbedTitle":{
+            "s": "Welcome,",
+            "e": "!"
+        },
+        "accountEmbedDesc": {
+            "s": "You can view all the options related to your account here:"
+        },
+        "errorOptionToggleNotDefined": {
+            "s": "What option do you want to toggle?"
+        },
+        "errorOptionSelectNotDefined": {
+            "s": "What option do you want to change?"
+        },
+        "errorOptionNotFound": {
+            "s": "I couldn't find this option!"
+        },
+        "errorOptionNotToggleable": {
+            "s": "This command is not toggleable! Try using `;account set` instead of `;account toggle`"
+        },
+        "errorOptionNotSelectable": {
+            "s": "This command does not contain multiple options to select! Try using `;account toggle` instead"
+        },
+        "errorInvalidValue": {
+            "s": "The entered value is invalid."
+        },
+        "selectPossibleOptions": {
+            "s": "Here are all the possible values for this option:"
+        },
+        "successToggle": {
+            "s": "Success!",
+            "m": "is now",
+            "e1": "enabled",
+            "e2": "disabled"
+        },
+        "successSelect": {
+            "s": "Success!",
+            "m": "is now set to"
+        }
+    },
+    "server": {
+        "serverEmbedTitle":{
+            "s": "Welcome to",
+            "e": "!"
+        },
+        "categoriesEmbedTitle":{
+            "s": "Welcome to",
+            "e": "! Choose the category of settings:"
+        },
+        "serverEmbedDesc": {
+            "s": "You can view all the options related to this server here:"
+        },
+        "errorInvalidChannel": {
+            "s": "Error! Invalid Channel. Make sure you spelled it correctly and that the bot has access to it."
+        },
+        "errorInvalidRole": {
+            "s": "Error! Invalid Role. Make sure you spelled it correctly."
+        },
+        "errorPermissions": {
+            "s": "I'm sorry, but you can't do that (You require Manage Server permission to edit it's settings)"
+        },
+        "errorViewOptionNotDefined": {
+            "s": "What option do you want to view?"
+        },
+        "viewPossibleOptions": {
+            "s": "Here are all the possible options:"
+        },
+        "welcomeTags": {
+            "s": "Trying to set up welcome messages? Here are all the *tags* you can use:",
+            "1": "@mentions the user",
+            "2": "the username of the member",
+            "3": "the 4-digit tag of the member",
+            "4": "(only in leave messages) The amount of days, the member spent on this server",
+            "5": "(only in leave messages) The amount of months, the member spent on this server",
+            "m": "You can also use",
+            "e": "between different messages to make them randomized. Example:" 
+        },
+        "viewOption": {
+            "s": "The Option",
+            "m": "is set to:"
+        },
+        "optionReset": {
+            "s": "Success! The Option",
+            "m": "has been reset to"
+        }
+    },
+    "moderation": {
+        "errorMuteNotDefined": {
+            "s": "Which member do you want to mute?"
+        },
+        "errorUnmuteNotDefined": {
+            "s": "Which member do you want to unmute?"
+        },
+        "errorInvalidMember": {
+            "s": "Please, mention a member!"
+        },
+        "errorMuteRoleNotDefined": {
+            "s": "Muted Role is not yet configured! Go to server settings (;server) to set it up."
+        },
+        "successMute": {
+            "s": "has been muted"
+        },
+        "successUnmute": {
+            "s": "has been unmuted"
+        },
+        "errorPermissions": {
+            "s": "I'm sorry, but you can't do that (You require Manage Members permission)"
+        }
+    }
+}

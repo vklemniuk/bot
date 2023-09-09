@@ -1,0 +1,257 @@
+{
+    "bot": {
+        "token": "2.X4W1Bg.1Vu7ix5sQZsILyxE8UAZwz8wI2s",
+        "devToken": "1.X4gR-A.pV80_oFmZWqG2jywQvL2JVU1grU",
+        "name": "uBot",
+        "invite": "https://discord.com/api/oauth2/authorize?client_id=7655768759089234032&permissions=8&scope=bot",
+        "devInvite": "https://discord.com/api/oauth2/authorize?client_id=7662264279640310184&permissions=8&scope=bot"
+    },
+    "commands": {
+        "prefix": ";",
+        "info": [
+            {
+                "name": "account",
+                "description": "View uBot settings, related to your account. You can also use `;account toggle` or `;account set` to edit individual settings.",
+                "category": 0
+            },
+            {
+                "name": "server",
+                "description": "View settings, related to the server you're in. Admins can also use `;server toggle`, `;server set` or `;server reset` to edit individual settings.",
+                "category": 1
+            },
+            {
+                "name": "view",
+                "description": "View individual server option.",
+                "category": 1
+            },
+            {
+                "name": "ping",
+                "description": "A rather useless command, but you can test if the bot is online or not.",
+                "category": 2
+            },
+            {
+                "name": "welcomeTags",
+                "description": "A list of all the tags you can use in welcome messages.",
+                "category": 2
+            },
+            {
+                "name": "help",
+                "description": "Well, uh... don't you know already?",
+                "category": 2
+            },
+            {
+                "name": "mute",
+                "description": "Mutes the member. Note, that the Muted Role setting must be configured",
+                "category": 3
+            },
+            {
+                "name": "unmute",
+                "description": "Unmutes the member. Note, that the Muted Role setting must be configured",
+                "category": 3
+            }
+        ],
+        "categories": [
+            { "name": "personal", "id": 0 },
+            { "name": "server", "id": 1 },
+            { "name": "info", "id": 2 },
+            { "name": "moderation", "id": 3 }
+        ]
+    },
+    "user": {
+        "defaultSettings": [
+            {
+                "id": "shield",
+                "type": "switch",
+                "name": "Virtual Shield",
+                "desc": "Prevent others from using commands to do something with your name, profile picture, messages, etc",
+                "value": false,
+                "n": 0
+            },
+            {
+                "id": "dm",
+                "type": "switch",
+                "name": "Allow DMs",
+                "desc": "Do you want to allow DMs from the bot? Enabled by default",
+                "value": true,
+                "n": 1
+            },
+            {
+                "id": "lang",
+                "type": "select",
+                "name": "Language",
+                "desc": "Select the language you want the bot to reply in. Works only in DMs and account-related commands",
+                "values": [
+                    {
+                        "id": "en",
+                        "name": "English",
+                        "emoji": ":flag_us:"
+                    },
+                    {
+                        "id": "es",
+                        "name": "Español",
+                        "emoji": ":flag_es:"
+                    },
+                    {
+                        "id": "ru",
+                        "name": "Русский",
+                        "emoji": ":flag_ru:"
+                    }
+                ],
+                "value": 0,
+                "n": 2
+            }
+        ]
+    },
+    "server": {
+        "categories": [
+            ":gear: General",
+            ":wave: Welcomes",
+            ":flag_white: Roles",
+            ":hash: Channels",
+            ":hammer: Moderation"
+        ],
+        "categoryIds": [
+            "general",
+            "welcomes",
+            "roles",
+            "channels",
+            "moderation"
+        ],
+        "defaultSettings": [
+            {
+                "id": "prefix",
+                "type": "string",
+                "name": "Prefix",
+                "desc": "A symbol(s) with which to call the bot (server-wide)",
+                "value": ";",
+                "n": 0,
+                "category": 0
+            },
+            {
+                "id": "welcome",
+                "type": "switch",
+                "name": "Welcome Messages",
+                "desc": "Enable sending messages when someone joins or leaves the server",
+                "value": false,
+                "n": 1,
+                "category": 1
+            },
+            {
+                "id": "lang",
+                "type": "select",
+                "name": "Server Language",
+                "desc": "Select the language for this server. This will not apply to account-related commands",
+                "values": [
+                    {
+                        "id": "en",
+                        "name": "English",
+                        "emoji": ":flag_us:"
+                    },
+                    {
+                        "id": "es",
+                        "name": "Español",
+                        "emoji": ":flag_es:"
+                    },
+                    {
+                        "id": "ru",
+                        "name": "Русский",
+                        "emoji": ":flag_ru:"
+                    }
+                ],
+                "value": 0,
+                "n": 2,
+                "category": 0
+            },
+            {
+                "id": "welcomeChannel",
+                "type": "string",
+                "emoji": ":hash:",
+                "name": "Welcome Channel",
+                "showif": ["welcome", "=", true],
+                "filter": "channel",
+                "desc": "Enable sending messages when someone joins or leaves the server",
+                "value": "",
+                "n": 3,
+                "category": 1
+            },
+            {
+                "id": "joinMessage",
+                "type": "string",
+                "emoji": ":speech_balloon:",
+                "name": "User Join Message",
+                "showif": ["welcome", "=", true],
+                "desc": "You can use tags, such as <user>, <|>, etc. For more info, type `;welcomeTags`",
+                "value": "",
+                "n": 4,
+                "category": 1
+            },
+            {
+                "id": "leaveMessage",
+                "type": "string",
+                "emoji": ":speech_balloon:",
+                "name": "User Leave Message",
+                "showif": ["welcome", "=", true],
+                "desc": "You can use tags, such as <user>, <|>, etc. For more info, type `;welcomeTags`",
+                "value": "",
+                "n": 5,
+                "category": 1
+            },
+            {
+                "id": "dmHelp",
+                "type": "switch",
+                "name": "DM Help Message to User",
+                "desc": "instead of sending it in the server.",
+                "value": false,
+                "n": 6,
+                "category": 0
+            },
+            {
+                "id": "defaultRoles",
+                "type": "array",
+                "emoji": ":ballot_box_with_check:",
+                "name": "Default Roles",
+                "desc": "Roles, that will be given to new members once they join. Please note that you have to put the bot's role higher than the roles you want to add",
+                "values": [],
+                "valuesOverride": "roles",
+                "value": [],
+                "n": 7,
+                "category": 2
+            },
+            {
+                "id": "disabledChannels",
+                "type": "array",
+                "emoji": ":ballot_box_with_check:",
+                "name": "Disabled Channels",
+                "desc": "Channels, in which bot commands are ignored",
+                "values": [],
+                "valuesOverride": "channels",
+                "value": [],
+                "n": 8,
+                "category": 3
+            },
+            {
+                "id": "permanentRoles",
+                "type": "array",
+                "emoji": ":arrows_counterclockwise:",
+                "name": "Permanent Roles",
+                "desc": "Roles, that will be re-given to members if they left and then joined again. Please note that you have to put the bot's role higher than the roles you want to add",
+                "values": [],
+                "valuesOverride": "roles",
+                "value": [],
+                "n": 9,
+                "category": 2
+            },
+            {
+                "id": "muteRole",
+                "type": "string",
+                "emoji": ":mute:",
+                "name": "Muted Role",
+                "filter": "role",
+                "desc": "Select the role to be recognized as muted. Note, that I need to have Manage Channels permission to make the role, well, actually mute members",
+                "value": "",
+                "n": 10,
+                "category": 4
+            }
+        ]
+    }
+}

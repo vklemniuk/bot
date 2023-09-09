@@ -1,0 +1,146 @@
+{
+  "377395423792594956": {
+    "id": "377395423792594956",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": true
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 2
+      }
+    },
+    "name": "Ucrash"
+  },
+  "469194918334693413": {
+    "id": "469194918334693413",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 2
+      }
+    },
+    "name": "Shocker16"
+  },
+  "489437432484200480": {
+    "id": "489437432484200480",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      }
+    },
+    "name": "smv"
+  },
+  "764930166542827520": {
+    "id": "764930166542827520",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 2
+      }
+    },
+    "name": "LuniWereFoxo"
+  },
+  "474650052124606466": {
+    "id": "474650052124606466",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 2
+      }
+    },
+    "name": "Lord Myka"
+  },
+  "438365897833578496": {
+    "id": "438365897833578496",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      }
+    },
+    "name": "Just_Spacedan"
+  },
+  "408980792165924884": {
+    "id": "408980792165924884",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      }
+    },
+    "name": "Спайд"
+  },
+  "466605867488509952": {
+    "id": "466605867488509952",
+    "settings": {
+      "shield": {
+        "n": 0,
+        "value": false
+      },
+      "dm": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      }
+    },
+    "name": "Simon142"
+  }
+}

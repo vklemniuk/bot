@@ -1,0 +1,175 @@
+{
+  "534410794624876560": {
+    "id": "534410794624876560",
+    "settings": {
+      "prefix": {
+        "n": 0,
+        "value": ";"
+      },
+      "welcome": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      },
+      "welcomeChannel": {
+        "n": 3,
+        "value": "<#765855330583183361>"
+      },
+      "joinMessage": {
+        "n": 4,
+        "value": "Hi, <user>! Welcome to this shitty server <|> <user> just hopped into this server! <|> Thank you, <user>, very cool! <|> Hey-ya-hop-<user>-ahahah"
+      },
+      "leaveMessage": {
+        "n": 5,
+        "value": "**<name>#<tag>** left (spent <spentdays> days)"
+      },
+      "dmHelp": {
+        "n": 6,
+        "value": false
+      },
+      "defaultRoles": {
+        "n": 7,
+        "value": [
+          "<@&766326044034334753>"
+        ]
+      },
+      "disabledChannels": {
+        "n": 8,
+        "value": [
+          "<#766334666038706216>",
+          "<#766334640150806548>"
+        ]
+      },
+      "permanentRoles": {
+        "n": 9,
+        "value": [
+          "<@&766023512195989536>"
+        ]
+      },
+      "muteRole": {
+        "n": 10,
+        "value": "<@&766369193921740831>"
+      }
+    },
+    "members": {
+      "479722134910795777": {
+        "roles": [
+          "766326044034334753",
+          "534410794624876560"
+        ]
+      }
+    },
+    "roles": {
+      "muteRoleApplied": true
+    }
+  },
+  "695001772204359831": {
+    "id": "695001772204359831",
+    "settings": {
+      "prefix": {
+        "n": 0,
+        "value": "!"
+      },
+      "welcome": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 2
+      },
+      "welcomeChannel": {
+        "n": 3,
+        "value": "<#695001772644761660>"
+      },
+      "joinMessage": {
+        "n": 4,
+        "value": "<user> Присоединился к серверу <|> <user> Пришёл учиться <|> <user> Хочет кушать (пришёл на сервер)"
+      },
+      "leaveMessage": {
+        "n": 5,
+        "value": "<name>#<tag> ушёл из сервера <|> <name>#<tag> свалил <|> Пока, <name>#<tag>!"
+      },
+      "dmHelp": {
+        "n": 6,
+        "value": true
+      },
+      "defaultRoles": {
+        "n": 7,
+        "value": []
+      },
+      "disabledChannels": {
+        "n": 8,
+        "value": []
+      },
+      "permanentRoles": {
+        "n": 9,
+        "value": []
+      },
+      "muteRole": {
+        "n": 10,
+        "value": ""
+      }
+    },
+    "roles": {
+      "muteRoleApplied": false
+    }
+  },
+  "763097393881153546": {
+    "id": "763097393881153546",
+    "settings": {
+      "prefix": {
+        "n": 0,
+        "value": ";"
+      },
+      "welcome": {
+        "n": 1,
+        "value": true
+      },
+      "lang": {
+        "n": 2,
+        "value": 0
+      },
+      "welcomeChannel": {
+        "n": 3,
+        "value": "<#763381809626218497>"
+      },
+      "joinMessage": {
+        "n": 4,
+        "value": "<user> прискакал на сервер. Циганские фокусы <|> О привет <user> <|> На поверхность этого сервера прилетел <user> <|> <user> Теперь очень хороший человек. Добро пожаловать!"
+      },
+      "leaveMessage": {
+        "n": 5,
+        "value": "<name>#<tag> Свалил :("
+      },
+      "dmHelp": {
+        "n": 6,
+        "value": true
+      },
+      "defaultRoles": {
+        "n": 7,
+        "value": [
+          "<@&763139167143854141>"
+        ]
+      },
+      "disabledChannels": {
+        "n": 8,
+        "value": []
+      },
+      "permanentRoles": {
+        "n": 9,
+        "value": []
+      },
+      "muteRole": {
+        "n": 10,
+        "value": "<@&766388757800681482>"
+      }
+    },
+    "roles": {
+      "muteRoleApplied": true
+    }
+  }
+}
