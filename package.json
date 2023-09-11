@@ -9,8 +9,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "VK",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklemniuk/bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vklemniuk/bot/issues"
+  },
+  "homepage": "https://github.com/vklemniuk/bot#readme"
 }
+
