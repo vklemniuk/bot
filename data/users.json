@@ -4,7 +4,7 @@
     "settings": {
       "shield": {
         "n": 0,
-        "value": true
+        "value": false
       },
       "dm": {
         "n": 1,
